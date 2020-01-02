@@ -1,6 +1,6 @@
 {
   "name": "packetier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny util for making simple structured JSON packets",
   "main": "index.js",
   "scripts": {
