@@ -1,0 +1,25 @@
+{
+  "name": "packetier",
+  "version": "1.0.0",
+  "description": "A tiny util for making simple structured JSON packets",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonoAugustine/Packetier.git"
+  },
+  "keywords": [
+    "packet",
+    "json",
+    "packeter",
+    "REST",
+    "API"
+  ],
+  "author": "Jono Augustine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonoAugustine/Packetier/issues"
+  },
+  "homepage": "https://github.com/JonoAugustine/Packetier#readme"
+}

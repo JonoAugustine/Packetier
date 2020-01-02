@@ -29,4 +29,4 @@ Packetier.prototype.pack = function() {
   return JSON.stringify(this);
 };
 
-module.exports.packetier = packetier;
+module.exports = packetier;
