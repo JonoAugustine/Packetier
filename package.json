@@ -1,10 +1,9 @@
 {
   "name": "packetier",
-  "version": "1.0.1",
-  "description": "A tiny util for making simple structured JSON packets",
-  "main": "index.js",
-  "scripts": {
-  },
+  "version": "2.0.0",
+  "description": "A tiny util for making simple structured JSON packets for REST or Websockets",
+  "main": "src/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonoAugustine/Packetier.git"
@@ -17,9 +16,12 @@
     "API"
   ],
   "author": "Jono Augustine",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/JonoAugustine/Packetier/issues"
   },
-  "homepage": "https://github.com/JonoAugustine/Packetier#readme"
+  "homepage": "https://github.com/JonoAugustine/Packetier#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }

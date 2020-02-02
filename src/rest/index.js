@@ -3,7 +3,7 @@
  *
  * @param {boolean} success
  * @param {*} payload
- * @param {*} meta
+ * @param {Meta} meta
  * @returns {Packetier}
  */
 function Packetier(success, payload, meta) {
