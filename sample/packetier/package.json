@@ -3,8 +3,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
-    "start": "node ./index.js",
-    "shipper": "node ./shipper.js"
+    "start": "node ./index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
