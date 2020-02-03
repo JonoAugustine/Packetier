@@ -7,7 +7,7 @@
 ## Usage
 
 ```javascript
-const packetier = require("packetier")
+const { packetier } = require("packetier")
 // import Packetier from "packetier" // ES6
 
 
@@ -28,7 +28,7 @@ Example: ExpressJS
 ```javascript
 // Imports
 const express = require("express")
-const packetier = require("packetier")
+const { packetier } = require("packetier")
 
 // Server setup
 const server = express()
