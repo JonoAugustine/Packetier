@@ -41,16 +41,4 @@ Packetier.prototype.pack = function() {
   return JSON.stringify(this);
 };
 
-/**
- * Sets the Packetier prototype function `ship`.
- *
- * @param {function} func - The function to set Packetier.ship to.
- *
- * @since 2.0.0
- * @author Jonathan Augustine
- */
-Packetier.prototype.shipper = function(func) {
-  Packetier.prototype.ship = func;
-};
-
 module.exports = packetier;

@@ -42,16 +42,4 @@ Socketier.prototype.pack = function() {
   return JSON.stringify(this);
 };
 
-/**
- * Sets the Socketier prototype function `ship`.
- *
- * @param {function} func - The function to set Socketier.ship to.
- *
- * @since 2.0.0
- * @author Jonathan Augustine
- */
-Socketier.prototype.shipper = function(func) {
-  Socketier.prototype.ship = func;
-};
-
 module.exports = socketier;
