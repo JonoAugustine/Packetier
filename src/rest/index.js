@@ -4,7 +4,9 @@
  * @param {boolean} success
  * @param {*} payload
  * @param {Meta} meta
- * @returns {Packetier}
+ *
+ * @since 1.0.0
+ * @author Jonathan Augustine
  */
 function Packetier(success, payload, meta) {
   this.success = success;
@@ -19,14 +21,36 @@ function Packetier(success, payload, meta) {
  * @param {*} payload
  * @param {*} meta
  * @returns {Packetier}
+ *
+ * @since 1.0.0
+ * @author Jonathan Augustine
  */
 function packetier(success, payload, meta) {
   return new Packetier(success, payload, meta);
 }
 
-/** Packs the Packet into stringified JSON. */
+/**
+ * Packs the Packetier into stringified JSON.
+ *
+ * @returns {string} This Packetier stringified.
+ *
+ * @since 1.0.0
+ * @author Jonathan Augustine
+ */
 Packetier.prototype.pack = function() {
   return JSON.stringify(this);
+};
+
+/**
+ * Sets the Packetier prototype function `ship`.
+ *
+ * @param {function} func - The function to set Packetier.ship to.
+ *
+ * @since 2.0.0
+ * @author Jonathan Augustine
+ */
+Packetier.prototype.shipper = function(func) {
+  Packetier.prototype.ship = func;
 };
 
 module.exports = packetier;
