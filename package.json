@@ -1,24 +1,27 @@
 {
   "name": "packetier",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A tiny util for making simple structured JSON packets for REST or Websockets",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "lib/index.js",
+  "scripts": {
+    "watch": "tsc --project . --watch",
+    "build": "tsc --project .",
+    "prepublishOnly": "yarn build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonoAugustine/Packetier.git"
   },
-  "keywords": [
-    "packet",
-    "json",
-    "packeter",
-    "REST",
-    "API"
-  ],
-  "author": "Jono Augustine",
+  "keywords": ["packet", "json", "packeter", "REST", "API", "typescript"],
+  "author": "JonoAugustine",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/JonoAugustine/Packetier/issues"
   },
-  "homepage": "https://github.com/JonoAugustine/Packetier#readme"
+  "homepage": "https://github.com/JonoAugustine/Packetier#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.68.0",
+    "typescript": "^4.5.5"
+  }
 }
