@@ -1,6 +1,6 @@
 {
   "name": "packetier",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "A tiny util for making simple structured JSON packets for REST or Websockets",
   "main": "lib/index.js",
   "scripts": {
